@@ -1,0 +1,19 @@
+ git init
+ git remote add origin https://github.com/Ash-siv4/gitBasics-task.git
+ git pull origin main
+ touch file.java file.cs file1.txt File2.txt
+ git status
+  git add file.java
+  git status
+  git commit -m "Java file"
+  git push -u origin main
+  git status
+  git add file1.txt File2.txt
+  git status
+ git commit -m "Text files"
+ touch file.py
+ git status
+ git add .
+ git status
+ git commit -m "All files"
+ git push
